@@ -4,7 +4,7 @@ import axios from 'axios';
 import HomeComponent from './components/home/home.component.tsx';
 import RegisterComponent from './components/register/register.component.tsx';
 import LoginComponent from './components/login/login.component.tsx';
-import './assets/scss/main.scss';
+import './assets/scss/forms.scss';
 
 const App: React.FC = () => {
     const [user, setUser] = useState<{ firstName: string; lastName: string } | null>(null);
