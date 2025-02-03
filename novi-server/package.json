@@ -1,0 +1,42 @@
+{
+  "name": "novi-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/app.mjs",
+    "dev": "npx tsc -w & nodemon dist/app.mjs"
+  },
+  "keywords": [],
+  "author": "Marko Milovanovic",
+  "license": "ISC",
+  "description": "Test for NOVI Digital onboard.",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongodb-session": "^5.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/connect-mongo": "^3.1.2",
+    "@types/connect-mongodb-session": "^2.4.7",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.1",
+    "@types/mongodb": "^4.0.6",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.12.0",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  }
+}
